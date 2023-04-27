@@ -1,0 +1,16 @@
+.App {
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+

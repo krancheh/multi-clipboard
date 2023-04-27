@@ -1,0 +1,46 @@
+
+
+label {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    /*position: relative;*/
+}
+
+h3 {
+    margin: 0 0 -10px;
+    grid-column: 1 / span 2;
+}
+
+
+input {
+    margin: -10px 0 0 0;
+    height: 50px;
+    padding: 0 5px;
+    border-radius: 5px;
+    grid-column: 1 / span 2;
+}
+
+button {
+    height: 50px;
+    background-color: #699dfa;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
+.copy-button {
+}
+
+.delete-button {
+    background-color: #cb3b3b;
+}
+
+.delete-button:hover {
+    background-color: #CB3B3BD6;
+}
